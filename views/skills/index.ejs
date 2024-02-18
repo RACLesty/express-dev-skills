@@ -6,15 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <body>
-        <h1>Skills</h1>
-        <ul>
-          <% skills.forEach(function(s) { %>
-            <li><a href="/skills/<%= s.id %>"><%= s.name %></a></li>
-          <% }); %>
-        </ul>
-      </body>
-
+    <h1>Skills</h1>
+     <ul>
+        <% skills.forEach(function(s) { %>
+         <li><a href="/skills/<%= s.id %>"><%= s.name %></a></li>
+        <% }); %>
+    </ul>
 </body>
 </html>
